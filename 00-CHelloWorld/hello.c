@@ -6,11 +6,9 @@
 
 #include <stdio.h>
 #include <string.h>
+#define MESSAGE "Hellow, World!"
 
-int main() {
-    FILE* output = fopen("output.txt", "w+b");
-    char* message = "Hellow, World!";
-    fwrite(message, 1, strlen(message), output);
-    fclose(output);
+int main(void) {
+    printf(MESSAGE);
     return 0;
 }
