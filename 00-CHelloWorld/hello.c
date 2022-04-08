@@ -1,7 +1,7 @@
 /* Qué: 00-CHelloWorld
  * Realizar un programa con salida en un archivo de texto
  * Quiénes: Dylan Losada
- * Cuando: 29/03/2022
+ * Cuando: 07/04/2022
  */
 
 #include <stdio.h>
