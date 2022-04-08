@@ -5,10 +5,10 @@
  */
 
 #include <stdio.h>
-#include <string.h>
 #define MESSAGE "Hellow, World!"
 
-int main(void) {
+int main(void)
+{
     printf(MESSAGE);
     return 0;
 }
