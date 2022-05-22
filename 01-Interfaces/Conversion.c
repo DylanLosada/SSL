@@ -2,7 +2,7 @@
 
 double CelsuiusToFahrenheit(double temperaturaAConvertir)
 {
-    return (temperaturaAConvertir * 9 / 5) + 32;
+    return (temperaturaAConvertir * 9.0 / 5.0) + 32;
 }
 
 double FahrenheitToCelsuius(double temperaturaAConvertir)
