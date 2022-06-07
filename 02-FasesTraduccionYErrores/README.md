@@ -17,3 +17,16 @@ c) La compilacion nos da el codigo "traducido" a lenguaje assembler. En el cual,
 ## Punto 3: Vinculador
 
 c) Luego de la correccion del error, impreme por consola lo que le dimos como input en el printf "La respuesta es 42".
+
+## Punto 5: Remoción de prototipo
+
+a) En C existen funciones comunmente utilizadas, por esta razon el compilador de C sabe cuando se aplica una llamada a una de estas funciones y puede traer su firma y defion desde la standard library. Printf no es la unica que goza de esta ventaja, otra puede ser abs() de <stdlib.h>.
+
+## Punto 6: Contratos y Módulos
+
+b) Para poder vincular ambos archivos .o (hello8.o y studio1.o), con el comando gcc, debemos usar:
+gcc -include hello8.c studio1.c -o hello8 -std=c18
+
+c) En este caso, al modificar la funcion prontf o su implementacion, debemos hacerlo en ambos archivos o nos indicara un error en tiempo de compilacion.
+
+d) La ventaja principal de la inclusion es que transformamos a nuestra funcion printf en un productor consumidor, lo que nos obliga tener que definir la firma de la funcion y su implementacion. Asi, quien la quiera utilizar tendra que atarse a como nosotros definimos la funcion y evitara problemas con los argumentos y sus tipos.
