@@ -20,7 +20,7 @@ c) Luego de la corrección del error, impreme por consola lo que le dimos como i
 
 ## Punto 5: Remoción de prototipo
 
-a) C permite la declaración implícita, no tendremos su firma pero si su declaración, dado que irá a buscar esta función a la standard library y, en este caso, la encontrará. Printf no es la única que goza de esta ventaja, otra puede ser abs() de <stdlib.h>.
+a) GCC (compilador que estoy usando) permite la declaración implícita, no tendremos su firma pero si su declaración, dado que irá a buscar esta función a la standard library y, en este caso, la encontrará. Dado que no aplica de manera estricta el estandar del 99. De igual manera nos indicara con un warning que deberiamos declarar una firma y una implementacion para nuestra función.
 
 ## Punto 6: Contratos y Módulos
 
