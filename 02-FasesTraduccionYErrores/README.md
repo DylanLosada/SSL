@@ -40,3 +40,18 @@ c) En este caso, al modificar la implementación de la función prontf, no podem
 
 #### Responder: ¿Qué ventaja da incluir el contrato en los clientes y en el proveedor.
 d) La ventaja principal de la inclusion es que transformamos a nuestra función printf en un productor consumidor, lo que nos obliga tener que definir la firma de la función y su implementación. Así, quien la quiera utilizar tendra que atarse a como nosotros definimos la funcion y evitara problemas con los argumentos y sus tipos.
+
+## Punto Extra
+
+#### Investigue sobre bibliotecas. ¿Qué son? ¿Se puden distribuir? ¿Son portables? ¿Cuáles son sus ventajas y desventajas?.
+Las bibliotecas estan formadas por uno o varios archivos escritos en un cierto lenguaje de programación determinado, con la finalidad de proporcionar funcionalidades extras al lenguaje (o solamente mejorar las existentes).
+
+##### Ventajas:
+- Código reutilizable.
+- Mayor mantenibilidad, el código esta abstraido.
+- Velocidad de desarrollo de software, funcionalidades prerealizadas.
+
+##### Desventajas:
+- Tenemos que aprender a usar sus funcionalidades.
+- Nos atamos al uso de sus funcionalidades y podria generar, en algun futuro, dificultad para dejarla.
+- Un cambio en la implimentación de alguna función, podria romper todo algun archivo que este haciendo uso de la biblioteca.
