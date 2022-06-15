@@ -79,6 +79,9 @@ Caso contrario, obtendremos este error:
 > C:\w64devkit\bin/ld.exe: c:/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../> > > x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o):crt0_c.c:(.text.startup+0x2e): > undefined reference to `WinMain'
 > collect2.exe: error: ld returned 1 exit status
 
+Para el paso siguiente hare uso de un Makefile con la siguiente linea de código:
+![](https://github.com/DylanLosada/SSL/blob/main/02-FasesTraduccionYErrores/img/makefile.png)
+
 ##### Biblioteca instalada en el Sistema
 
 Como puede verse en el path del archivo (arriba de la linea 1 del fichero), la biblioteca esta dentro de la biblioteca standard de C.
