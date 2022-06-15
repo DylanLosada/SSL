@@ -70,7 +70,7 @@ Las bibliotecas estan formadas por uno o varios archivos escritos en un cierto l
 
 ##### Instalar la libreria
 
-Para lograr este comertido tendremos que compilar al archivo fuente con los siguientes flags, para darle a entender al compilador que es una libreria y no poseera la funcion main.
+Para lograr este cometido tendremos que compilar al archivo fuente con los siguientes flags, para darle a entender al compilador que es una libreria y no poseera la funcion main.
 
 > gcc studio2.c -o studio2 -shared -std=c18
 
